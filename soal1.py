@@ -1,0 +1,6 @@
+BMI = float (input("BMI yang diharapkan (kg): "))
+Tinggi = float (input("Tinggi Anda (m): "))
+print("BMI yang diharapkan: ", BMI)
+Berat = BMI * (Tinggi**2)
+print("Jika tinggi (dalam meter): ", Tinggi)
+print("Berat badan yang Anda perlukan adalah", Berat, "kg")
